@@ -117,6 +117,54 @@ nav ul li a:hover {
 
 /* 3. Body */
 
+.content{
+  background: green;
+  /* height: 500px; */
+  margin-top: 20px;
+}
+
+.section-title {
+  border-bottom: 2px solid #000000;;
+  font-size: auto;
+  padding-bottom: 5px;
+  margin-bottom: 10px
+}
+
+.content-item img{
+  float: left;
+
+  width: 30%;
+  height: 20%;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+
+  background: blue;
+}
+
+.content-right{
+  width: 70%;
+  float: right;
+  margin-right: ;
+  text-align: left;
+}
+
+.content-item p, h2{
+  background: red;
+  /* float: right; */
+  /* margin-right: 50%; */
+  /* margin-bottom: 10%; */
+  text-align: left;
+}
+
+.content-item h3{
+  font-size: small;
+}
+
+.clearfix:after{
+  clear: both;
+  display:table;
+  content:"";
+}
 
 
 /* 4. Formulir */
@@ -169,3 +217,5 @@ footer .kelompok {
 footer, footer a {
   color: black;
 }
+
+
