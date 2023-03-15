@@ -4,7 +4,6 @@ div, p{
 
 body{
   padding: 0 100px;
-  height:2000px;
 
   background-color: #F6F4F0;
 }
@@ -25,6 +24,7 @@ body{
     max-width: 120px;
     margin: 0 0 0 100px;
   }
+
   nav {
     display: flex;
     background: #f4f3f3;
@@ -36,32 +36,37 @@ body{
     align-items: center;
     flex: 50%;
   }
+
   nav div .left-nav {
-padding-left: 90px;
+    padding-left: 90px;
   }
+
   nav div.right-nav {
     padding-right: 80px;
     display: flex;
     justify-content: flex-end;
   }
+
   nav ul {
     list-style-type: none;
     margin-left: 10px;
   }
+
   nav ul li {
     display: inline;
     margin-left: 30px;
   }
+
   nav ul li a {
     color: #000000;
     text-decoration: none;
   }
+
   nav ul li a:hover {
     color: #ec4d37;
     font-weight: bold;
   }
-
-
+  
   .main-container{
     position: relative;
     text-align: center;
@@ -105,6 +110,7 @@ padding-left: 90px;
   
   .main-news-card p{
     margin: 7px 0;
+    font-size: auto;
   }
   
   .main-news-penulis{
@@ -172,8 +178,13 @@ padding-left: 90px;
 
 /* 3. Body */
 .content{
-    height: 500px;
-    margin-top: 100px;
+  /* background:red; */
+  margin-bottom: 20px;
+}
+
+.content-title{
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .section-title {
@@ -191,7 +202,7 @@ padding-left: 90px;
 }
 .content-item{
         display: flex;
-      }
+}
 
 /* 4. Formulir */
 .formulir {
@@ -226,14 +237,40 @@ padding-left: 90px;
   margin-bottom: 30px;
 }
 
+.btn{
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.6;
+  border-radius: 2px;
+  text-align: center;
+
+  transition: all 1s;
+}
+
+.btn:hover {
+  border-radius: 50px;
+  opacity: 1;
+}
+
 /* 5. Footer */
 /* footer by abdur */
 footer  {
-  /* background-color: #2f1f00; */
-  height:100%;
-  margin: 0 0 0 100px;
+  background-color: #2f1f00;
+  padding: 20px;
+  /* height:100%; */
   /* background-color: #f4f3f3; */
 }
+
+footer p{
+  color:white;
+}
+
+footer .link a{
+  text-decoration: none;
+  color: white;
+}
+
 footer .title {
   margin-top: 10px;
 }
