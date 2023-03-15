@@ -38,7 +38,7 @@ nav div {
 nav div .left-nav {
 padding-left: 90px;
 }
-nav div.right-nav {
+nav div.right-nav{
   padding-right: 80px;
   display: flex;
   justify-content: flex-end;
@@ -46,6 +46,7 @@ nav div.right-nav {
 nav ul {
   list-style-type: none;
   margin-left: 10px;
+  
 }
 nav ul li {
   display: inline;
@@ -151,7 +152,19 @@ nav ul li a:hover {
   border-radius: 4px;
   margin-bottom: 30px;
 }
+.btn{
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 2px;
+  text-align: center;
+}
+.btn:hover {
+  opacity: 1;
+  
 
+}
 /* 5. Footer */
 /* footer by abdur */
 footer  {
