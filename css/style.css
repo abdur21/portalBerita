@@ -3,8 +3,7 @@ div, p{
 }
 
 body{
-  /* padding: 0 100px; */
-
+  padding: 0 100px;
   background-color: #F6F4F0;
 }
 
@@ -24,10 +23,101 @@ a {
   max-width: 120px;
   margin: 0 0 0 100px;
 }
+
 nav {
   display: flex;
   background: #f4f3f3;
   height: 7vh;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  flex: 50%;
+}
+
+nav div .left-nav {
+  padding-left: 90px;
+}
+
+nav div.right-nav {
+  padding-right: 80px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul {
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 30px;
+}
+
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #ec4d37;
+  font-weight: bold;
+}
+
+.main-container{
+  position: relative;
+  text-align: center;
+}
+
+.main-news-tags{
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+
+  background: green;
+  color:black;
+  padding: 5px 20px;
+  border-radius: 50px;
+}
+
+.main-news-card-img img{
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.main-news-card-container{
+  position: absolute;
+  /* background: red; */
+  width: 100%;
+  bottom: 30px;
+  text-align: center;
+}
+
+.main-news-card{
+  background: white;
+  text-align: left;
+  padding: 25px;
+  border-radius: 15px;
+
+  margin: 0 auto;
+  width: 720px;
+}
+
+.main-news-card p{
+  margin: 7px 0;
+  font-size: auto;
+}
+
+.main-news-penulis{
+  font-size: 13px;
+}
+
+.main-news-heading{
+  font-size: 24px;
 }
 
 nav div {
@@ -117,8 +207,32 @@ nav ul li a:hover {
 }
 
 /* 3. Body */
+.content{
+  /* background:red; */
+  margin-bottom: 20px;
+}
 
+.content-title{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
 
+.section-title {
+  border-bottom: 2px solid #000000;;
+  font-size: auto;
+  padding-bottom: 5px;
+  margin-bottom: 10px
+}
+.content-item img{
+  width: 35%;
+  height: 20%;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+.content-item{
+  display: flex;
+}
 
 /* 4. Formulir */
 .formulir {
@@ -152,27 +266,41 @@ nav ul li a:hover {
   border-radius: 4px;
   margin-bottom: 30px;
 }
+  
 .btn{
   padding: 12px 24px;
   color: white;
   display: inline-block;
-  opacity: 0.8;
+  opacity: 0.6;
   border-radius: 2px;
   text-align: center;
-}
-.btn:hover {
-  opacity: 1;
-  
 
+  transition: all 1s;
 }
+
+.btn:hover {
+  border-radius: 50px;
+  opacity: 1;
+}
+
 /* 5. Footer */
 /* footer by abdur */
 footer  {
-  /* background-color: #2f1f00; */
-  height:100%;
-  margin: 0 0 0 100px;
+  background-color: #2f1f00;
+  padding: 20px;
+  /* height:100%; */
   /* background-color: #f4f3f3; */
 }
+
+footer p{
+  color:white;
+}
+
+footer .link a{
+  text-decoration: none;
+  color: white;
+}
+
 footer .title {
   margin-top: 10px;
 }
@@ -182,3 +310,4 @@ footer .kelompok {
 footer, footer a {
   color: black;
 }
+

@@ -6,11 +6,10 @@
   }
   .main-news-card{
       max-width: 95%;
-      line-height: 40px;
+      /* line-height: 40px; */
   }
   .main-news-card-img{
       width: 100%;
-      ;
   }
   .right-nav{
     width: 100%;
