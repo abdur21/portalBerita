@@ -171,8 +171,27 @@ padding-left: 90px;
 }
 
 /* 3. Body */
+.content{
+    height: 500px;
+    margin-top: 100px;
+}
 
-
+.section-title {
+    border-bottom: 2px solid #000000;;
+    font-size: auto;
+    padding-bottom: 5px;
+    margin-bottom: 10px
+}
+.content-item img{
+    width: 35%;
+    height: 20%;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+.content-item{
+        display: flex;
+      }
 
 /* 4. Formulir */
 .formulir {
