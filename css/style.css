@@ -33,22 +33,32 @@ nav {
 nav div {
   display: flex;
   align-items: center;
-  flex: 50%;
+  flex:50%;
 }
 
 nav div .left-nav {
   padding-left: 90px;
 }
-
 nav div.right-nav {
   padding-right: 80px;
   display: flex;
   justify-content: flex-end;
+  
 }
-
+.fa{
+  margin-right: 5px;
+}
+.menu-icon {
+  color: red;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display:none;
+}
 nav ul {
   list-style-type: none;
-  margin-left: 10px;
+  margin-left: 20px;
+  display: flex;
 }
 
 nav ul li {
@@ -107,6 +117,7 @@ nav ul li a:hover {
 
   margin: 0 auto;
   width: 720px;
+  
 }
 
 .main-news-card p{
